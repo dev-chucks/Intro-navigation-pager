@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro section navigation page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="overlay" id="overlay"></div>
+  <header>
+    <nav class="navbar">
+    <a href="#" class="logo">
+      <img src="images/logo.svg" alt="snap logo">
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li class="dropdown">
+        <button class="dropdown-toggle" aria-expanded="false">
+          Features
+         <img src="images/icon-arrow-down.svg" alt="arrow icon" class="arrow-icon">
+        </button>
+        <ul class="dropdown-menu">
+         <li><a href="#"><img src="images/icon-todo.svg" alt="" />Todo List</a></li>
+         <li><a href="#"><img src="images/icon-calendar.svg" alt="" /> Calendar</a></li>
+         <li><a href="#"><img src="images/icon-reminders.svg" alt="" /> Reminders</a></li>
+         <li><a href="#"><img src="images/icon-planning.svg" alt="" /> Planning</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <button class="dropdown-toggle" aria-expanded="false">
+          Company
+         <img src="images/icon-arrow-down.svg" alt="" class="arrow-icon" />
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">History</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    
+    <div class="nav-auth" id="nav-auth">
+      <a href="#" class="btn-login">Login</a>
+      <a href="#" class="btn-register">Register</a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <img src="images/icon-menu.svg" alt="open menu" id="hamburger-icon" />
+    </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+    <div class="hero-content">
+       <h1 id="heading">Digital Marketing <span class="head">Blog</span></h1>
+       <p>
+         Get latest updates, trends, & marketing Insights for modern age remote workers.
+         stay ahead with actionable tips on SEO,
+         social media, email marketing, and paid advertising.
+       </p>
+       <a href="#" class="btn-primary">Learn more</a>
+
+    <div class="clients">
+       <img src="images/client-databiz.svg" alt="Databiz" />
+       <img src="images/client-audiophile.svg" alt="Audiophile" />
+       <img src="images/client-meet.svg" alt="Meet" />
+       <img src="images/client-maker.svg" alt="Maker" />
+    </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/image-hero-desktop.png" alt="team collaboration illustration" id="hero-img"/>
+    </div>
+
+    </section>
+  </main>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
